@@ -1,0 +1,4 @@
+schema,table,active_bytes,time_travel_bytes,failsafe_bytes,retained_for_clone_bytes,clone_group_id,id
+SALES,ORDERS_DP,310310400,0,0,0,14142,14142
+FINANCE,ORDERS_CLONE,0,0,0,0,14142,14158
+FINANCE,ORDERS_COPY,305178112,0,0,0,14156,14156

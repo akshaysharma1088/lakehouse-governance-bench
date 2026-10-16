@@ -1,0 +1,4 @@
+method,rows_before_insert,rows_after_insert,source_rows_after,refresh_seconds
+COPY,14850000,14850000,15000000,3.135
+CLONE,14850000,14850000,15000000,1.301
+VIEW,14850000,15000000,15000000,

@@ -1,0 +1,5994 @@
+{
+  "products": [
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0000",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_PHONE",
+          "name": "C_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0001",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_PHONE",
+          "name": "MOBILE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "C_ADDRESS",
+          "name": "C_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "C_NAME",
+          "name": "CUST_LABEL",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0002",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_PHONE",
+          "name": "C_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "HOLDER",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_ADDRESS",
+          "name": "C_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0003",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0004",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0005",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "C_ADDRESS",
+          "name": "C_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "C_PHONE",
+          "name": "TEL",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "PARTY",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0006",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ADDRESS",
+          "name": "C_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "C_PHONE",
+          "name": "C_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0007",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0008",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_PHONE",
+          "name": "TEL",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0009",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "COUNTRY",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0010",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ADDRESS",
+          "name": "C_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_PHONE",
+          "name": "C_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0011",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ADDRESS",
+          "name": "C_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "C_PHONE",
+          "name": "C_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0012",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_PHONE",
+          "name": "C_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0013",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_PHONE",
+          "name": "C_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "C_ADDRESS",
+          "name": "C_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0014",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_PHONE",
+          "name": "C_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_ADDRESS",
+          "name": "C_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0015",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "C_ADDRESS",
+          "name": "C_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "C_PHONE",
+          "name": "CONTACT_NO",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "SEGMENT",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "COUNTRY",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0016",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0017",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "C_PHONE",
+          "name": "C_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "C_ADDRESS",
+          "name": "RESIDENCE",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0018",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "C_ADDRESS",
+          "name": "C_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "C_PHONE",
+          "name": "MOBILE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "SEGMENT",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0019",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ADDRESS",
+          "name": "C_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "BAL_AMT",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "N_NAME",
+          "name": "COUNTRY",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0020",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_PHONE",
+          "name": "C_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "HOLDER",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0021",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "C_ADDRESS",
+          "name": "C_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "C_PHONE",
+          "name": "C_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0022",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ADDRESS",
+          "name": "C_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0023",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_PHONE",
+          "name": "C_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "C_ADDRESS",
+          "name": "C_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "EXPOSURE",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "SEGMENT",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0024",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ADDRESS",
+          "name": "C_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "HOLDER",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0025",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_PHONE",
+          "name": "C_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_ADDRESS",
+          "name": "C_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0026",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ADDRESS",
+          "name": "C_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_PHONE",
+          "name": "C_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "BAL_AMT",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "N_NAME",
+          "name": "COUNTRY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0027",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "PARTY",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "SEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0028",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_PHONE",
+          "name": "C_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "C_ADDRESS",
+          "name": "C_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0029",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ADDRESS",
+          "name": "C_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "C_NAME",
+          "name": "PARTY",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_PHONE",
+          "name": "CONTACT_NO",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0000",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "ORDER_AMT",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "O_ORDERSTATUS",
+          "name": "O_ORDERSTATUS",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERPRIORITY",
+          "name": "O_ORDERPRIORITY",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0001",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERSTATUS",
+          "name": "STATUS",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "ORDER_AMT",
+          "cls": null,
+          "numeric": true
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0002",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERPRIORITY",
+          "name": "O_ORDERPRIORITY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0003",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "O_ORDERSTATUS",
+          "name": "O_ORDERSTATUS",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERPRIORITY",
+          "name": "O_ORDERPRIORITY",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0004",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "O_ORDERSTATUS",
+          "name": "O_ORDERSTATUS",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERPRIORITY",
+          "name": "O_ORDERPRIORITY",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0005",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "O_ORDERSTATUS",
+          "name": "O_ORDERSTATUS",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERPRIORITY",
+          "name": "O_ORDERPRIORITY",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0006",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "AGENT_ID",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERSTATUS",
+          "name": "STATUS",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0007",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERSTATUS",
+          "name": "O_ORDERSTATUS",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERPRIORITY",
+          "name": "O_ORDERPRIORITY",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0008",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "AGENT_ID",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "O_ORDERPRIORITY",
+          "name": "O_ORDERPRIORITY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0009",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERPRIORITY",
+          "name": "O_ORDERPRIORITY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0010",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0011",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERPRIORITY",
+          "name": "O_ORDERPRIORITY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERSTATUS",
+          "name": "O_ORDERSTATUS",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0012",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERSTATUS",
+          "name": "O_ORDERSTATUS",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0013",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0014",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERSTATUS",
+          "name": "STATUS",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERPRIORITY",
+          "name": "O_ORDERPRIORITY",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0015",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "HANDLER",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0016",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0017",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "AGENT_ID",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERPRIORITY",
+          "name": "O_ORDERPRIORITY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "O_ORDERSTATUS",
+          "name": "STATUS",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0018",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "AGENT_ID",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERSTATUS",
+          "name": "O_ORDERSTATUS",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "O_ORDERPRIORITY",
+          "name": "O_ORDERPRIORITY",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0019",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERSTATUS",
+          "name": "O_ORDERSTATUS",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0020",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERSTATUS",
+          "name": "O_ORDERSTATUS",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0021",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERSTATUS",
+          "name": "O_ORDERSTATUS",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0022",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERPRIORITY",
+          "name": "O_ORDERPRIORITY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERSTATUS",
+          "name": "STATUS",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0023",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "O_ORDERSTATUS",
+          "name": "O_ORDERSTATUS",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0024",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "HANDLER",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "ORDER_AMT",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "O_ORDERPRIORITY",
+          "name": "O_ORDERPRIORITY",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0025",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERSTATUS",
+          "name": "O_ORDERSTATUS",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERPRIORITY",
+          "name": "O_ORDERPRIORITY",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0026",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERPRIORITY",
+          "name": "O_ORDERPRIORITY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERSTATUS",
+          "name": "O_ORDERSTATUS",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0027",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0028",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0029",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "O_ORDERPRIORITY",
+          "name": "O_ORDERPRIORITY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERSTATUS",
+          "name": "O_ORDERSTATUS",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0000",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_ACCTBAL",
+          "name": "VENDOR_BAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "S_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_NAME",
+          "name": "P_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0001",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_ACCTBAL",
+          "name": "S_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "S_PHONE",
+          "name": "S_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "VENDOR_LOC",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "P_BRAND",
+          "name": "P_BRAND",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_NAME",
+          "name": "P_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_NAME",
+          "name": "S_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0002",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "S_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "S_PHONE",
+          "name": "S_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "S_ACCTBAL",
+          "name": "S_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "S_NAME",
+          "name": "S_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_BRAND",
+          "name": "P_BRAND",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_NAME",
+          "name": "PRODUCT_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0003",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "SITE_LOC",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "S_PHONE",
+          "name": "S_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "COUNTRY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_BRAND",
+          "name": "P_BRAND",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_NAME",
+          "name": "P_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_NAME",
+          "name": "S_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0004",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_ACCTBAL",
+          "name": "S_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "S_PHONE",
+          "name": "S_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "S_NAME",
+          "name": "SUPPLIER_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_BRAND",
+          "name": "P_BRAND",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0005",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_ACCTBAL",
+          "name": "S_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "S_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0006",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_ACCTBAL",
+          "name": "S_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "S_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "P_NAME",
+          "name": "PRODUCT_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_NAME",
+          "name": "S_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0007",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "VENDOR_LOC",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "S_PHONE",
+          "name": "S_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "P_NAME",
+          "name": "P_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_BRAND",
+          "name": "P_BRAND",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "NATION_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0008",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "S_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "S_ACCTBAL",
+          "name": "S_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "S_PHONE",
+          "name": "S_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "P_BRAND",
+          "name": "P_BRAND",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_NAME",
+          "name": "P_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_NAME",
+          "name": "VENDOR_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0009",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "S_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "S_ACCTBAL",
+          "name": "S_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "P_NAME",
+          "name": "P_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0010",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_PHONE",
+          "name": "S_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "P_NAME",
+          "name": "P_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_BRAND",
+          "name": "P_BRAND",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_NAME",
+          "name": "S_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0011",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_PHONE",
+          "name": "VENDOR_TEL",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "S_ACCTBAL",
+          "name": "S_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "P_BRAND",
+          "name": "P_BRAND",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0012",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "SITE_LOC",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "S_PHONE",
+          "name": "S_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "P_BRAND",
+          "name": "P_BRAND",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_NAME",
+          "name": "P_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "NATION_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_NAME",
+          "name": "S_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0013",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_PHONE",
+          "name": "S_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "S_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "S_ACCTBAL",
+          "name": "S_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "P_NAME",
+          "name": "P_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_BRAND",
+          "name": "P_BRAND",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "NATION_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_NAME",
+          "name": "S_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0014",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_PHONE",
+          "name": "HOTLINE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "SITE_LOC",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "P_NAME",
+          "name": "P_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_NAME",
+          "name": "VENDOR_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_BRAND",
+          "name": "P_BRAND",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0015",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "S_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "S_PHONE",
+          "name": "VENDOR_TEL",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "S_ACCTBAL",
+          "name": "S_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "P_BRAND",
+          "name": "P_BRAND",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "NATION_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_NAME",
+          "name": "S_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0016",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_PHONE",
+          "name": "S_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "S_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "P_BRAND",
+          "name": "P_BRAND",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "COUNTRY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_NAME",
+          "name": "P_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_NAME",
+          "name": "S_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0017",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_ACCTBAL",
+          "name": "S_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "S_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "S_PHONE",
+          "name": "S_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "P_NAME",
+          "name": "P_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_BRAND",
+          "name": "P_BRAND",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0018",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "S_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "S_NAME",
+          "name": "S_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_NAME",
+          "name": "P_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_BRAND",
+          "name": "P_BRAND",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0019",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_ACCTBAL",
+          "name": "PAYABLE_POS",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "SITE_LOC",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "S_PHONE",
+          "name": "HOTLINE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_NAME",
+          "name": "S_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_NAME",
+          "name": "P_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0020",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "S_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "S_ACCTBAL",
+          "name": "S_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "S_NAME",
+          "name": "SUPPLIER_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_NAME",
+          "name": "PRODUCT_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0021",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_PHONE",
+          "name": "VENDOR_TEL",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "P_BRAND",
+          "name": "P_BRAND",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "COUNTRY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_NAME",
+          "name": "P_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0022",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_PHONE",
+          "name": "S_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "P_NAME",
+          "name": "P_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0023",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_PHONE",
+          "name": "S_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "S_ACCTBAL",
+          "name": "VENDOR_BAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "S_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "S_NAME",
+          "name": "S_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_BRAND",
+          "name": "P_BRAND",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_NAME",
+          "name": "P_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0024",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_PHONE",
+          "name": "S_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "S_ACCTBAL",
+          "name": "S_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "N_NAME",
+          "name": "COUNTRY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_NAME",
+          "name": "S_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_NAME",
+          "name": "ITEM_DESC",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_BRAND",
+          "name": "P_BRAND",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0025",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_PHONE",
+          "name": "S_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "S_ACCTBAL",
+          "name": "S_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "P_NAME",
+          "name": "P_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_NAME",
+          "name": "S_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0026",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_PHONE",
+          "name": "S_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "VENDOR_LOC",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "S_NAME",
+          "name": "S_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_BRAND",
+          "name": "P_BRAND",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0027",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_PHONE",
+          "name": "HOTLINE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "SITE_LOC",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "S_NAME",
+          "name": "S_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "NATION_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_BRAND",
+          "name": "P_BRAND",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_NAME",
+          "name": "P_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0028",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_PHONE",
+          "name": "S_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "S_ACCTBAL",
+          "name": "S_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "S_NAME",
+          "name": "S_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0029",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_PHONE",
+          "name": "VENDOR_TEL",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "S_ACCTBAL",
+          "name": "S_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "S_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "P_NAME",
+          "name": "P_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_BRAND",
+          "name": "P_BRAND",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_NAME",
+          "name": "S_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0000",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "ORDER_AMT",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0001",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "ORDER_AMT",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0002",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "O_CLERK",
+          "name": "AGENT_ID",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0003",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0004",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0005",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "HANDLER",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "ORDER_AMT",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0006",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0007",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "BAL_AMT",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0008",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "LEDGER_POS",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "ORDER_AMT",
+          "cls": null,
+          "numeric": true
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0009",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0010",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "O_CLERK",
+          "name": "HANDLER",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0011",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0012",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0013",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "SEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0014",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "EXPOSURE",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0015",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "LEDGER_POS",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "ORDER_AMT",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0016",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "HANDLER",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "SEGMENT",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0017",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0018",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "HANDLER",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0019",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "AGENT_ID",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0020",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "AGENT_ID",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0021",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0022",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0023",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "PARTY",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0024",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "ORDER_AMT",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0025",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "HANDLER",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0026",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "O_CLERK",
+          "name": "AGENT_ID",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0027",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0028",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0029",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    }
+  ],
+  "drift": [
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0030",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ADDRESS",
+          "name": "C_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "C_PHONE",
+          "name": "C_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0031",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_PHONE",
+          "name": "C_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "COUNTRY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0032",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "HOLDER",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_ADDRESS",
+          "name": "C_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0033",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_PHONE",
+          "name": "C_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "SEGMENT",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0034",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "CUSTOMER",
+      "table": "DP_CUSTOMER_0035",
+      "from": "{s}.CUSTOMER JOIN {s}.NATION ON C_NATIONKEY = N_NATIONKEY",
+      "cols": [
+        {
+          "base": "C_CUSTKEY",
+          "name": "C_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "BAL_AMT",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0030",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERPRIORITY",
+          "name": "O_ORDERPRIORITY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERSTATUS",
+          "name": "O_ORDERSTATUS",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0031",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERSTATUS",
+          "name": "O_ORDERSTATUS",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERPRIORITY",
+          "name": "O_ORDERPRIORITY",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0032",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "AGENT_ID",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERSTATUS",
+          "name": "STATUS",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERPRIORITY",
+          "name": "O_ORDERPRIORITY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0033",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERSTATUS",
+          "name": "O_ORDERSTATUS",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0034",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SALES",
+      "table": "DP_SALES_0035",
+      "from": "{s}.ORDERS",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CUSTKEY",
+          "name": "O_CUSTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERSTATUS",
+          "name": "O_ORDERSTATUS",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERPRIORITY",
+          "name": "O_ORDERPRIORITY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0030",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_ACCTBAL",
+          "name": "S_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "S_PHONE",
+          "name": "S_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "VENDOR_LOC",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0031",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_ACCTBAL",
+          "name": "S_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "S_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "P_NAME",
+          "name": "P_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_NAME",
+          "name": "SUPPLIER_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_BRAND",
+          "name": "P_BRAND",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0032",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_PHONE",
+          "name": "S_PHONE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "VENDOR_LOC",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "P_NAME",
+          "name": "P_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0033",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_ACCTBAL",
+          "name": "S_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "S_PHONE",
+          "name": "VENDOR_TEL",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "S_NAME",
+          "name": "S_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_NAME",
+          "name": "P_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_BRAND",
+          "name": "P_BRAND",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0034",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "S_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_NAME",
+          "name": "P_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_NAME",
+          "name": "S_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "SUPPLY",
+      "table": "DP_SUPPLY_0035",
+      "from": "{s}.SUPPLIER JOIN {s}.NATION ON S_NATIONKEY = N_NATIONKEY JOIN {s}.PARTSUPP ON PS_SUPPKEY = S_SUPPKEY JOIN {s}.PART ON PS_PARTKEY = P_PARTKEY",
+      "cols": [
+        {
+          "base": "S_SUPPKEY",
+          "name": "S_SUPPKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_PARTKEY",
+          "name": "P_PARTKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "S_PHONE",
+          "name": "HOTLINE",
+          "cls": "phone",
+          "numeric": false
+        },
+        {
+          "base": "S_ADDRESS",
+          "name": "S_ADDRESS",
+          "cls": "address",
+          "numeric": false
+        },
+        {
+          "base": "S_NAME",
+          "name": "S_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "N_NAME",
+          "name": "N_NAME",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "P_NAME",
+          "name": "P_NAME",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0030",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0031",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "ORDER_AMT",
+          "cls": null,
+          "numeric": true
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0032",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "C_MKTSEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0033",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_MKTSEGMENT",
+          "name": "SEGMENT",
+          "cls": null,
+          "numeric": false
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0034",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "C_ACCTBAL",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        }
+      ]
+    },
+    {
+      "domain": "FINANCE",
+      "table": "DP_FINANCE_0035",
+      "from": "{s}.ORDERS JOIN {s}.CUSTOMER ON O_CUSTKEY = C_CUSTKEY",
+      "cols": [
+        {
+          "base": "O_ORDERKEY",
+          "name": "O_ORDERKEY",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "C_NAME",
+          "name": "C_NAME",
+          "cls": "name",
+          "numeric": false
+        },
+        {
+          "base": "C_ACCTBAL",
+          "name": "EXPOSURE",
+          "cls": "balance",
+          "numeric": true
+        },
+        {
+          "base": "O_CLERK",
+          "name": "O_CLERK",
+          "cls": "employee",
+          "numeric": false
+        },
+        {
+          "base": "O_ORDERDATE",
+          "name": "O_ORDERDATE",
+          "cls": null,
+          "numeric": false
+        },
+        {
+          "base": "O_TOTALPRICE",
+          "name": "O_TOTALPRICE",
+          "cls": null,
+          "numeric": true
+        }
+      ]
+    }
+  ]
+}

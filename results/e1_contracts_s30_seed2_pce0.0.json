@@ -1,0 +1,4731 @@
+{
+  "DP_CUSTOMER_0000": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0000",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "RESIDENCE",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "NATION_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "SEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0001": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0001",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "MAIL_TO",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "C_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0002": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0002",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "HOLDER",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "SEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0003": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0003",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "CONTACT_NO",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0004": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0004",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "SEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0005": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0005",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "C_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "C_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "PARTY",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0006": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0006",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "C_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "C_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0007": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0007",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0008": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0008",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "C_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "C_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "SEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0009": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0009",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0010": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0010",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "C_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "EXPOSURE",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "SEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0011": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0011",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "LEDGER_POS",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "C_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0012": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0012",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "C_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "SEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0013": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0013",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0014": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0014",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "BAL_AMT",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "MOBILE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "SEGMENT",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0015": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0015",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0016": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0016",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "C_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "C_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "BAL_AMT",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0017": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0017",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "NATION_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0018": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0018",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "PARTY",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0019": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0019",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0020": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0020",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "C_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0021": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0021",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "CUST_LABEL",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "SEGMENT",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "NATION_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0022": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0022",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "SEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0023": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0023",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "BAL_AMT",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "C_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "C_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "SEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0024": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0024",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "MAIL_TO",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0025": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0025",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "C_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "C_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "SEGMENT",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0026": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0026",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "MAIL_TO",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "SEGMENT",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0027": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0027",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0028": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0028",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "PARTY",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "C_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0029": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0029",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0000": {
+    "domain": "SALES",
+    "table": "DP_SALES_0000",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERSTATUS",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERPRIORITY",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0001": {
+    "domain": "SALES",
+    "table": "DP_SALES_0001",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "ORDER_AMT",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERPRIORITY",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0002": {
+    "domain": "SALES",
+    "table": "DP_SALES_0002",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "O_ORDERSTATUS",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0003": {
+    "domain": "SALES",
+    "table": "DP_SALES_0003",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERSTATUS",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0004": {
+    "domain": "SALES",
+    "table": "DP_SALES_0004",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERSTATUS",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0005": {
+    "domain": "SALES",
+    "table": "DP_SALES_0005",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "HANDLER",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      }
+    ]
+  },
+  "DP_SALES_0006": {
+    "domain": "SALES",
+    "table": "DP_SALES_0006",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERPRIORITY",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0007": {
+    "domain": "SALES",
+    "table": "DP_SALES_0007",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERSTATUS",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERPRIORITY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0008": {
+    "domain": "SALES",
+    "table": "DP_SALES_0008",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERPRIORITY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERSTATUS",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0009": {
+    "domain": "SALES",
+    "table": "DP_SALES_0009",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      }
+    ]
+  },
+  "DP_SALES_0010": {
+    "domain": "SALES",
+    "table": "DP_SALES_0010",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0011": {
+    "domain": "SALES",
+    "table": "DP_SALES_0011",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "HANDLER",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "STATUS",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "O_ORDERPRIORITY",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0012": {
+    "domain": "SALES",
+    "table": "DP_SALES_0012",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERPRIORITY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      }
+    ]
+  },
+  "DP_SALES_0013": {
+    "domain": "SALES",
+    "table": "DP_SALES_0013",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "AGENT_ID",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "ORDER_AMT",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERPRIORITY",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0014": {
+    "domain": "SALES",
+    "table": "DP_SALES_0014",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0015": {
+    "domain": "SALES",
+    "table": "DP_SALES_0015",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "HANDLER",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "ORDER_AMT",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "O_ORDERPRIORITY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERSTATUS",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0016": {
+    "domain": "SALES",
+    "table": "DP_SALES_0016",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "ORDER_AMT",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERSTATUS",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0017": {
+    "domain": "SALES",
+    "table": "DP_SALES_0017",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "AGENT_ID",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERSTATUS",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERPRIORITY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      }
+    ]
+  },
+  "DP_SALES_0018": {
+    "domain": "SALES",
+    "table": "DP_SALES_0018",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERSTATUS",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0019": {
+    "domain": "SALES",
+    "table": "DP_SALES_0019",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "STATUS",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      }
+    ]
+  },
+  "DP_SALES_0020": {
+    "domain": "SALES",
+    "table": "DP_SALES_0020",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERSTATUS",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0021": {
+    "domain": "SALES",
+    "table": "DP_SALES_0021",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERPRIORITY",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0022": {
+    "domain": "SALES",
+    "table": "DP_SALES_0022",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERPRIORITY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "ORDER_AMT",
+        "classification": null,
+        "numeric": true
+      }
+    ]
+  },
+  "DP_SALES_0023": {
+    "domain": "SALES",
+    "table": "DP_SALES_0023",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0024": {
+    "domain": "SALES",
+    "table": "DP_SALES_0024",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERSTATUS",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "O_ORDERPRIORITY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0025": {
+    "domain": "SALES",
+    "table": "DP_SALES_0025",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERPRIORITY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0026": {
+    "domain": "SALES",
+    "table": "DP_SALES_0026",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "AGENT_ID",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "STATUS",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0027": {
+    "domain": "SALES",
+    "table": "DP_SALES_0027",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERPRIORITY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERSTATUS",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      }
+    ]
+  },
+  "DP_SALES_0028": {
+    "domain": "SALES",
+    "table": "DP_SALES_0028",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERPRIORITY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "O_ORDERSTATUS",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0029": {
+    "domain": "SALES",
+    "table": "DP_SALES_0029",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "HANDLER",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERPRIORITY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "O_ORDERSTATUS",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0000": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0000",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "VENDOR_LOC",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "P_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_BRAND",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0001": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0001",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "S_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "P_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0002": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0002",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "S_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "VENDOR_BAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "SUPPLIER_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0003": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0003",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "S_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "VENDOR_BAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "PRODUCT_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0004": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0004",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "HOTLINE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "S_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "S_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "P_BRAND",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0005": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0005",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "S_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "S_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "COUNTRY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_BRAND",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0006": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0006",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "SITE_LOC",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "S_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "S_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "S_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0007": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0007",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_BRAND",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0008": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0008",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "S_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0009": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0009",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0010": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0010",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "S_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "VENDOR_LOC",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "NATION_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0011": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0011",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "S_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "PAYABLE_POS",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_BRAND",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0012": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0012",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "S_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0013": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0013",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "SUPPLIER_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0014": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0014",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "PRODUCT_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_BRAND",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0015": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0015",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "VENDOR_TEL",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "S_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_BRAND",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0016": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0016",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "S_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "S_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0017": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0017",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "VENDOR_BAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "S_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0018": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0018",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "VENDOR_BAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "P_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_BRAND",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0019": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0019",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "S_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_BRAND",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0020": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0020",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "S_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "P_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_BRAND",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0021": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0021",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "VENDOR_BAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "P_BRAND",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0022": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0022",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "S_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "VENDOR_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_BRAND",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0023": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0023",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "S_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "S_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "NATION_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_BRAND",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0024": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0024",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "S_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "S_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "COUNTRY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0025": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0025",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "S_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "S_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "P_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0026": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0026",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "VENDOR_BAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "P_BRAND",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0027": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0027",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "P_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0028": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0028",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "VENDOR_BAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "HOTLINE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "VENDOR_LOC",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "P_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0029": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0029",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_BRAND",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "SUPPLIER_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0000": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0000",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0001": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0001",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "EXPOSURE",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "CUST_LABEL",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0002": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0002",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0003": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0003",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      }
+    ]
+  },
+  "DP_FINANCE_0004": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0004",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "AGENT_ID",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0005": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0005",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "PARTY",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0006": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0006",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0007": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0007",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0008": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0008",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "ORDER_AMT",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0009": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0009",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "AGENT_ID",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "EXPOSURE",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0010": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0010",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0011": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0011",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0012": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0012",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "ORDER_AMT",
+        "classification": null,
+        "numeric": true
+      }
+    ]
+  },
+  "DP_FINANCE_0013": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0013",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      }
+    ]
+  },
+  "DP_FINANCE_0014": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0014",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "PARTY",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "ORDER_AMT",
+        "classification": null,
+        "numeric": true
+      }
+    ]
+  },
+  "DP_FINANCE_0015": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0015",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0016": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0016",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "SEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0017": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0017",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0018": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0018",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "PARTY",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      }
+    ]
+  },
+  "DP_FINANCE_0019": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0019",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      }
+    ]
+  },
+  "DP_FINANCE_0020": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0020",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "AGENT_ID",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "CUST_LABEL",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0021": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0021",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      }
+    ]
+  },
+  "DP_FINANCE_0022": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0022",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "ORDER_AMT",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0023": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0023",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "EXPOSURE",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0024": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0024",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "ORDER_AMT",
+        "classification": null,
+        "numeric": true
+      }
+    ]
+  },
+  "DP_FINANCE_0025": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0025",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "SEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0026": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0026",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "AGENT_ID",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0027": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0027",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0028": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0028",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "LEDGER_POS",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0029": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0029",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0030": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0030",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "C_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0031": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0031",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "C_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0032": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0032",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0033": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0033",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0034": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0034",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "MOBILE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_CUSTOMER_0035": {
+    "domain": "CUSTOMER",
+    "table": "DP_CUSTOMER_0035",
+    "columns": [
+      {
+        "name": "C_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "RESIDENCE",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "HOLDER",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0030": {
+    "domain": "SALES",
+    "table": "DP_SALES_0030",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "STATUS",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0031": {
+    "domain": "SALES",
+    "table": "DP_SALES_0031",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERSTATUS",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      }
+    ]
+  },
+  "DP_SALES_0032": {
+    "domain": "SALES",
+    "table": "DP_SALES_0032",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "HANDLER",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERPRIORITY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERSTATUS",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0033": {
+    "domain": "SALES",
+    "table": "DP_SALES_0033",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SALES_0034": {
+    "domain": "SALES",
+    "table": "DP_SALES_0034",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "HANDLER",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      }
+    ]
+  },
+  "DP_SALES_0035": {
+    "domain": "SALES",
+    "table": "DP_SALES_0035",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CUSTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "O_ORDERPRIORITY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0030": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0030",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "S_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "S_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "P_BRAND",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0031": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0031",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "S_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0032": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0032",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "S_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "S_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_BRAND",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0033": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0033",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "S_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "P_BRAND",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "N_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_NAME",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0034": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0034",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "S_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "P_BRAND",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_SUPPLY_0035": {
+    "domain": "SUPPLY",
+    "table": "DP_SUPPLY_0035",
+    "columns": [
+      {
+        "name": "S_SUPPKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "P_PARTKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "S_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "S_ADDRESS",
+        "classification": "address",
+        "numeric": false
+      },
+      {
+        "name": "S_PHONE",
+        "classification": "phone",
+        "numeric": false
+      },
+      {
+        "name": "P_NAME",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0030": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0030",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0031": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0031",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      }
+    ]
+  },
+  "DP_FINANCE_0032": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0032",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      },
+      {
+        "name": "SEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0033": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0033",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_CLERK",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "O_ORDERDATE",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0034": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0034",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "C_NAME",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "HANDLER",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      }
+    ]
+  },
+  "DP_FINANCE_0035": {
+    "domain": "FINANCE",
+    "table": "DP_FINANCE_0035",
+    "columns": [
+      {
+        "name": "O_ORDERKEY",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "CUST_LABEL",
+        "classification": "name",
+        "numeric": false
+      },
+      {
+        "name": "C_ACCTBAL",
+        "classification": "balance",
+        "numeric": true
+      },
+      {
+        "name": "AGENT_ID",
+        "classification": "employee",
+        "numeric": false
+      },
+      {
+        "name": "C_MKTSEGMENT",
+        "classification": null,
+        "numeric": false
+      },
+      {
+        "name": "O_TOTALPRICE",
+        "classification": null,
+        "numeric": true
+      }
+    ]
+  }
+}
