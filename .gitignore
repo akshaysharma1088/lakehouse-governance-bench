@@ -1,0 +1,5 @@
+results/
+*.p8
+*.pub
+.venv/
+__pycache__/
